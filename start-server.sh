@@ -1,0 +1,1 @@
+pm2 start server/src/index.js && cd client && pm2 start npm -- start 

@@ -13,7 +13,7 @@ const App = () => {
 		fetch(`${URL}/subscriber${pathname}`)
 			.then((response) => response.json())
 			.then((data) => {
-				if (data.code === 404) {
+				if ((data.code === 404 && pathname !== '/') || pathname !== '') {
 					alert(data.message);
 				} else {
 					setTopics(data.topics);

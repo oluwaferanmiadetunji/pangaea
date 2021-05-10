@@ -5,7 +5,7 @@ import ReactJson from 'react-json-view';
 
 const App = () => {
 	const [topics, setTopics] = useState([]);
-	const URL = 'http://localhost:8000';
+	const URL = 'http://104.131.55.240:8000';
 	const pathname = useLocation().pathname;
 	const [response, setResponse] = useState([]);
 

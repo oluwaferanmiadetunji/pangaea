@@ -1,5 +1,3 @@
-# pangaea
-
 
 <p align="center">
  
